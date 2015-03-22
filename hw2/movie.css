@@ -1,0 +1,124 @@
+body {
+	background-image: url("images/background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#entire {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px gray solid;
+}
+
+#banner {
+	background-image: url("images/bannerbackground.png");
+	background-repeat: repeat-x;
+}
+
+h1 {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-align: center;
+}
+
+#leftcon {
+	width: 550px;
+	float: left;
+	overflow: hidden;
+}
+
+#rightcon {
+	width: 250px;
+	float: right;
+	background-color: #a2b964;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+
+#rightcon dl {
+	padding: 0 10px 10px 10px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1em;
+}
+
+#rating {
+	background-image: url("images/rottenbackground.png");
+	height: 83px;
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+#rating img {
+	vertical-align: text-top;
+}
+
+#review {
+	font-size: 8pt;
+	color: white;
+	font-weight: normal;
+}
+
+#lcom, #rcom {
+	width: 47%;
+	margin: 2%;
+	overflow: hidden;
+}
+
+#lcom {
+	float: left;
+}
+
+.comment {
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #e1d697;
+	border: 2px gray solid;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.user {
+	margin-bottom: 1.5em;
+	overflow: hidden;
+}
+
+.user span {
+	font-style: italic;
+}
+
+.comment img, .user img {
+	float: left;
+	margin-right: 5px;
+}
+
+.comment p {
+	margin: 0;
+	padding: 0;
+}
+
+#page {
+	clear: both;
+	text-align: center;
+	background-color: #a2b964;
+}
+
+#page p {
+	margin: 0;
+}
+
+#valid {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
