@@ -1,0 +1,62 @@
+body {
+	background-image: url("images/background.gif");
+}
+
+ul {
+	list-style-position: inside;
+}
+
+::selection {
+	color: yellow;
+	background-color: black;
+}
+
+#entire {
+	border: 10px white solid;
+	background-color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+#title {
+	border: 3px #A8F0F0 solid;
+	text-align: right;
+	background-color: #A8F0F0;
+}
+
+#sub {
+	font-size: 14pt;
+}
+
+.content {
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.date {
+	border-bottom: 2px blue dashed;
+}
+
+.pic {
+	float: right;
+	z-index: -1;
+}
+
+#fricol {
+	margin: 10px 5px;
+	padding: 3px;
+	border: 4px navy solid;
+	width: 25%;
+	float: left;
+	overflow: auto;
+}
+
+#seccol {
+	margin-left: 25%;
+	overflow: hidden;
+}
