@@ -1,0 +1,50 @@
+body {
+	font-family: 微软雅黑, 宋体;
+	background-color: #143D66;
+	color: white;
+	text-align: center;
+}
+
+.subTitle {
+	color: #A3C2FF;
+}
+
+#pageTitle {
+	font-weight: bolder;
+}
+
+#comment {
+	font-size: 10px;
+	text-decoration: line-through;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #4DDBFF;
+}
+
+a:visited {
+	color: #DFCAFF;
+}
+
+a:hover {
+	color: white;
+}
+
+/* This is a pseudo-ELEMENT,
+   shoule use double colon */
+p::first-letter {
+	font-size: 25px;
+}
+
+.emphasis {
+	font-weight: bolder;
+	color: green;
+}
+
+ol {
+	list-style-position: inside;
+}
